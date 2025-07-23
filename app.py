@@ -63,4 +63,5 @@ def search():
 
 if __name__ == '__main__':
     os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))  # Render 會自動設定 PORT 環境變數
+    app.run(host='0.0.0.0', port=port)
