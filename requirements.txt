@@ -1,15 +1,3 @@
-步驟1
+
 Flask
-
-執行方式
-
-安裝2 Flask（如果還沒裝）：
-pip install flask 啟動應用程式：
-
-安裝3
-python app.py
-
-執行4
-開啟瀏覽器前往：
-http://127.0.0.1:5000/
 
